@@ -2,8 +2,8 @@ def my_collect(array)
   i = 0
   new_collection= []
   while i < array.length
-    new_collection << yield(collection[i].capitalize)
-    i=i+1
+    new_collection << yield(collection[i])
+    i+=1
   end
   return new_collection
 end
