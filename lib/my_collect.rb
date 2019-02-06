@@ -5,5 +5,5 @@ def my_collect(array)
     collection << yield(collection[i])
     i += 1
   end
-  new_collection
+  collection
 end
